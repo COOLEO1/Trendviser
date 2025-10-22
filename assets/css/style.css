@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #111;
+  color: white;
+}
+
+#backgroundImage {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-text {
+  position: relative;
+  top: -250px;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0078D7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
